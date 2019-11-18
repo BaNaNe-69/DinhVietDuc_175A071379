@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tạo bảng, trộn dòng và cột</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .tieude {
+        color: #cc0033;
+        text-align: center;
+      }
+      table {
+        width: 50%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid rgb(245, 159, 0);
+        border-collapse: collapse;
+      }
+      .nen {
+        background-color: #cc0033;
+        color: white;
+        text-align: center;
+      }
+      .demucbang {
+        color: #cc0033;
+        text-align: center;
+      }
+      .giua {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="tieude">Chương trình học - ngành lập trình</h1>
+    <table>
+      <tr class="nen">
+        <td rowspan="2">Nhóm học phần</td>
+        <td rowspan="2">Môn học</td>
+        <td colspan="2">Số tiết</td>
+      </tr>
+      <tr class="nen">
+        <td>Lý thuyết</td>
+        <td>Thực hành</td>
+      </tr>
+      <tr>
+        <td rowspan="6" class="demucbang">I <br />Tin học văn phòng</td>
+        <td>Hệ điều hành Windows</td>
+        <td class="giua">3</td>
+        <td class="giua">5</td>
+      </tr>
+      <tr>
+        <td>Sử dụng Internet</td>
+        <td class="giua">3</td>
+        <td class="giua">5</td>
+      </tr>
+      <tr>
+        <td>Soạn thảo văn bản với MS Word</td>
+        <td class="giua">24</td>
+        <td class="giua">40</td>
+      </tr>
+      <tr>
+        <td>Tạo bài trình diễn với MS PowerPoint</td>
+        <td class="giua">9</td>
+        <td class="giua">15</td>
+      </tr>
+      <tr>
+        <td>Xử lý số liệu với MS Excel</td>
+        <td class="giua">24</td>
+        <td class="giua">40</td>
+      </tr>
+      <tr>
+        <td>Tạo trang Web với MS FrontPage</td>
+        <td class="giua">9</td>
+        <td class="giua">15</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="demucbang">
+          II <br />Kỹ thuật lập trình (VB.NET)
+        </td>
+        <td>Nhập môn lập trình</td>
+        <td class="giua">36</td>
+        <td class="giua">60</td>
+      </tr>
+      <tr>
+        <td>Kỹ thuật lập trình</td>
+        <td class="giua">36</td>
+        <td class="giua">60</td>
+      </tr>
+      <tr>
+        <td colspan="4">.....</td>
+      </tr>
+    </table>
+  </body>
+</html>
